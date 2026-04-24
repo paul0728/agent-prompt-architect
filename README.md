@@ -14,7 +14,11 @@ This is a **skill** — a set of instructions that, once installed, gives your A
 
 ## Installation
 
-Copy the `skill/` directory into your AI tool's skills location:
+```bash
+npx skills add paul0728/agent-prompt-architect
+```
+
+Or manually copy the `skill/` directory into your AI tool's skills location:
 
 | Tool | Destination |
 |------|-------------|

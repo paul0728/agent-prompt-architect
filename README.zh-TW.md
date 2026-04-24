@@ -14,7 +14,11 @@
 
 ## 安裝方式
 
-將 `skill/` 目錄複製到你的 AI 工具的 skills 位置：
+```bash
+npx skills add paul0728/agent-prompt-architect
+```
+
+或手動將 `skill/` 目錄複製到你的 AI 工具的 skills 位置：
 
 | 工具 | 目標位置 |
 |------|----------|
