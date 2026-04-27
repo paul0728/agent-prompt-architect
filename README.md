@@ -14,11 +14,7 @@ This is a **skill** — a set of instructions that, once installed, gives your A
 
 ## Installation
 
-```bash
-npx skills add paul0728/agent-prompt-architect
-```
-
-Or manually copy the `skill/` directory into your AI tool's skills location:
+Copy the `skill/` directory into your AI tool's skills location:
 
 | Tool | Destination |
 |------|-------------|
@@ -28,6 +24,12 @@ Or manually copy the `skill/` directory into your AI tool's skills location:
 | GitHub Copilot | `.github/skills/agent-prompt-architect/` |
 | Cline | `.cline/skills/agent-prompt-architect/` |
 | Windsurf | `.windsurf/skills/agent-prompt-architect/` |
+
+Alternatively, if your tool supports the `.agents/skills/` directory:
+
+```bash
+npx skills add paul0728/agent-prompt-architect
+```
 
 ## What the Skill Teaches
 

@@ -14,11 +14,7 @@
 
 ## 安裝方式
 
-```bash
-npx skills add paul0728/agent-prompt-architect
-```
-
-或手動將 `skill/` 目錄複製到你的 AI 工具的 skills 位置：
+將 `skill/` 目錄複製到你的 AI 工具的 skills 位置：
 
 | 工具 | 目標位置 |
 |------|----------|
@@ -28,6 +24,12 @@ npx skills add paul0728/agent-prompt-architect
 | GitHub Copilot | `.github/skills/agent-prompt-architect/` |
 | Cline | `.cline/skills/agent-prompt-architect/` |
 | Windsurf | `.windsurf/skills/agent-prompt-architect/` |
+
+如果你的工具支援 `.agents/skills/` 目錄，也可以用：
+
+```bash
+npx skills add paul0728/agent-prompt-architect
+```
 
 ## Skill 教會了什麼
 
